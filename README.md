@@ -47,6 +47,7 @@ For this project, you will create an interactive Bash program that uses PostgreS
 ![Captura13](https://github.com/AndresF-SanchezG/postgres-challenge3/assets/113924667/68a2e9f9-031c-4ac9-b368-4f49462cc509)
 ![Captura14](https://github.com/AndresF-SanchezG/postgres-challenge3/assets/113924667/6a72a3f2-0264-417a-b595-1c694d920fde)
 
+#
 
 - Autor - [@AndresF-SanchezG](https://github.com/AndresF-SanchezG)
 - School - [Freecodecamp](https://www.freecodecamp.org/)
