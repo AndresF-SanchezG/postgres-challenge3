@@ -35,6 +35,15 @@ For this project, you will create an interactive Bash program that uses PostgreS
 ![Captura7](https://github.com/AndresF-SanchezG/postgres-challenge3/assets/113924667/73ab57e3-86a1-4e59-a0dc-8e9b7699d047)
 ![Captura8](https://github.com/AndresF-SanchezG/postgres-challenge3/assets/113924667/f0fe42ef-00d3-40a9-955b-d006e1c2353d)
 
+## Appointments Table
+![Captura9](https://github.com/AndresF-SanchezG/postgres-challenge3/assets/113924667/eec150ef-9954-4433-ab54-473336d3e0bd)
+![Captura10](https://github.com/AndresF-SanchezG/postgres-challenge3/assets/113924667/96d311d1-7e8d-4412-8c69-e68f8938a595)
+
+## Customers Table
+![Captura11](https://github.com/AndresF-SanchezG/postgres-challenge3/assets/113924667/740de07f-8324-4a10-9a14-56e413d3e0c6)
+
+
+
 
 - Autor - [@AndresF-SanchezG](https://github.com/AndresF-SanchezG)
 - School - [Freecodecamp](https://www.freecodecamp.org/)
