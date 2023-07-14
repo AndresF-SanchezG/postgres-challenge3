@@ -35,12 +35,14 @@ For this project, you will create an interactive Bash program that uses PostgreS
 
 ![Captura2](https://github.com/AndresF-SanchezG/postgres-challenge2/assets/113924667/f6c90218-ad3c-4125-8438-c50ea48d64a5)
 
-- Autor - [@AndresF-SanchezG](https://github.com/AndresF-SanchezG)
-- School - [Freecodecamp](https://www.freecodecamp.org/)
-- Curse - [Build a Salon Appointment Scheduler](https://www.freecodecamp.org/learn/relational-database/build-a-salon-appointment-scheduler-project/build-a-salon-appointment-scheduler)
 
 ## Part 3: Query the database
 ![Captura2](https://github.com/AndresF-SanchezG/postgres-challenge2/assets/113924667/38e6ddba-146e-4768-aeb3-3a1a78529e07)
 ![Captura1](https://github.com/AndresF-SanchezG/postgres-challenge2/assets/113924667/1c639839-efc1-48b5-90a9-ea20f4c146ad)
+
+- Autor - [@AndresF-SanchezG](https://github.com/AndresF-SanchezG)
+- School - [Freecodecamp](https://www.freecodecamp.org/)
+- Curse - [Build a Salon Appointment Scheduler](https://www.freecodecamp.org/learn/relational-database/build-a-salon-appointment-scheduler-project/build-a-salon-appointment-scheduler)
+
 
 
