@@ -1,30 +1,34 @@
 # Build a Salon Appointment Scheduler
 
-For this project, you will create an interactive Bash program that uses PostgreSQL to track the customers and appointments for your salon.
+This code snippet is a PostgreSQL database dump in SQL format. It contains a series of statements that, when executed in a PostgreSQL database, will create the database structure and load sample data into the created tables. Here's an explanation of the main parts of the code:
 
-# Targets
-![Captura](https://github.com/AndresF-SanchezG/postgres-challenge3/assets/113924667/18df4b2b-aa24-42c4-9bf2-2f4cf6165cc2)
-- You should create a database named salon
-- You should connect to your database, then create tables named customers, appointments, and services
-- Each table should have a primary key column that automatically increments
-- Each primary key column should follow the naming convention, table_name_id. For example, the customers table should have a customer_id key. Note that there’s no s at the end of customer
-- Your appointments table should have a customer_id foreign key that references the customer_id column from the customers table
-- Your appointments table should have a service_id foreign key that references the service_id column from the services table
-- Your customers table should have phone that is a VARCHAR and must be unique
-- Your customers and services tables should have a name column
-- Your appointments table should have a time column that is a VARCHAR
-- You should have at least three rows in your services table for the different services you offer, one with a service_id of 1
-- You should create a script file named salon.sh in the project folder
-- Your script file should have a “shebang” that uses bash when the file is executed (use #! /bin/bash)
-- Your script file should have executable permissions
-- You should not use the clear command in your script
-- You should display a numbered list of the services you offer before the first prompt for input, each with the format #) <service>. For example, 1) cut, where 1 is the service_id
-- If you pick a service that doesn't exist, you should be shown the same list of services again
-  Your script should prompt users to enter a service_id, phone number, a name if they aren’t already a customer, and a time. You should use read to read these inputs into variables named   SERVICE_ID_SELECTED, CUSTOMER_PHONE, CUSTOMER_NAME, and SERVICE_TIME
-- If a phone number entered doesn’t exist, you should get the customers name and enter it, and the phone number, into the customers table
-- You can create a row in the appointments table by running your script and entering 1, 555-555-5555, Fabio, 10:30 at each request for input if that phone number isn’t in the customers      table. The row should have the customer_id for that customer, and the service_id for the service entered
-- You can create another row in the appointments table by running your script and entering 2, 555-555-5555, 11am at each request for input if that phone number is already in the customers   table. The row should have the customer_id for that customer, and the service_id for the service entered
-- After an appointment is successfully added, you should output the message I have put you down for a <service> at <time>, <name>. For example, if the user chooses cut as the service,       10:30 is entered for the time, and their name is Fabio in the database the output would be I have put you down for a cut at 10:30, Fabio. Make sure your script finishes running after      completing any of the tasks above, or else the tests won't pass
+Initial Configuration and Database Creation:
+
+Various initial configurations are set for the database.
+An existing database named "salon" is dropped if it already exists.
+A new database named "salon" is created using template0 with UTF-8 encoding and locale settings.
+Table Creation:
+
+Three tables are created in the public schema: "appointments," "customers," and "services."
+Each table has specific columns that describe different aspects, such as appointments, customers, and services.
+Sequence Creation:
+
+Sequences are created to generate automatic values for primary key columns in the tables.
+Each sequence has specified initial, increment, and cache values.
+Assignment of Sequences to Primary Key Columns:
+
+The newly created sequences are assigned to corresponding primary key columns in the tables.
+Insertion of Sample Data:
+
+Example records are inserted into the "appointments," "customers," and "services" tables using INSERT INTO statements.
+Adjustment of Sequence Values:
+
+Current values for the previously created sequences are set to match the values of the last inserted records.
+Definition of Constraints and Foreign Keys:
+
+Constraints and foreign keys are defined to maintain data integrity and relationships between the tables.
+For example, a primary key is set for the "appointments," "customers," and "services" tables, and foreign keys are created in the "appointments" table that reference the "customers" and "services" tables.
+In summary, this code creates a database named "salon" with three tables: "appointments," "customers," and "services." It then loads sample data into these tables and establishes constraints and relationships between them. This code could be used to recreate the database structure and sample data in a PostgreSQL installation.
 
 # Screenshot
 
